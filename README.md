@@ -8,7 +8,6 @@ This repository contains code for detecting craters on planetary surface images 
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Parameter Optimization](#parameter-optimization)
 - [Results Visualization](#results-visualization)
@@ -39,21 +38,6 @@ You can install the required dependencies using `pip`:
 ```bash
 pip install opencv-python numpy matplotlib pillow
 ```
-
-## Installation
-
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/yourusername/crater-detection.git
-   cd crater-detection
-   ```
-
-2. Install the necessary dependencies using `pip`:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
@@ -100,16 +84,3 @@ The following visualizations are produced as part of the analysis:
 - **Cumulative Distribution of Crater Diameters**: A plot of the cumulative count of craters as a function of their diameter.
 - **Hough Transform Space**: A visualization of the Hough Transform voting space for different parameter sets, helping to identify the best set of parameters for crater detection.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-### Notes:
-
-- Replace the URL in the `git clone` command with your actual repository link.
-- You can add a `requirements.txt` file to list the Python dependencies, if you want users to install them easily.
-- You may want to further expand on the installation and usage sections depending on your target audience.
-
-This README provides users with clear instructions on how to set up and use the project. It’s designed to be easy to follow and offers a good overview of the project's functionality.
